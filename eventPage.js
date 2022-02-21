@@ -5,5 +5,3 @@ var contextMenuItem = {
 };
 
 chrome.contextMenus.create(contextMenuItem);
-
-//let's see if this will commit
