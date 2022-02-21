@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Temples CNPJ",
+    "version": "1.0",
+    "description": "This is a Chrome Extension to help with Temples IAN Payments in the BRZ Area",
+    "icons": {
+        "16": "temple-icon.png"
+    },
+    "browser_action": {
+        "default_icon": "temple-icon.png"
+    },
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "storage",
+        "notifications",
+        "contextMenus"
+    ]
+}
