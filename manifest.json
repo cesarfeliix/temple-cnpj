@@ -4,20 +4,24 @@
     "version": "1.0",
     "description": "This is a Chrome Extension to help with Temples IAN Payments in the BRZ Area",
     "icons": {
-        "128": "temple-icon.png",
-        "48": "temple-icon.png",
-        "16": "temple-icon.png"
+        "128": "/icons/temple-icon.png",
+        "48": "/icons/temple-icon.png",
+        "16": "/icons/temple-icon.png"
     },
     "browser_action": {
-        "default_icon": "temple-icon.png"
+        "default_icon": "/icons/temple-icon.png",
+        "default_popup": "index.html"
     },
     "background": {
-        "scripts": ["eventPage.js"],
+        "scripts": ["background.js"],
         "persistent": false
     },
+    "content_security_policy": "script-src 'self' https://code.jquery.com/jquery-3.3.1.slim.min.js https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js; object-src 'self'",
+
     "permissions": [
         "storage",
         "notifications",
-        "contextMenus"
+        "contextMenus",
+        "tabs"
     ]
 }

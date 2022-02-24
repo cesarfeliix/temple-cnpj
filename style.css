@@ -1,0 +1,25 @@
+.nav-button {
+    background-color: none;
+    color: white;
+}
+.active-page {
+    font-weight: bold;
+}
+.main-info {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#ffffff; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+html {
+    background: #27ae60;
+}
