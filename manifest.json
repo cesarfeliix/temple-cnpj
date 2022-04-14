@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Temples CNPJ",
     "version": "1.0",
     "description": "This is a Chrome Extension to help with Temples IAN Payments in the BRZ Area",
